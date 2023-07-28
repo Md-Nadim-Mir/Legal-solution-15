@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Solutions</title>
+
+    <!-- use desiui and tailwind  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+    <!-- Font awesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- header section nav-->
+    <nav class="max-w-screen-xl mx-auto px-2 md:px-16 lg:px-24 my-3 py-2">
+        <div class="navbar bg-black rounded-xl ">
+            <div class="navbar-start">
+                <div class="dropdown pr-20 md:pr-32 lg:pr-0 text-white ">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </label>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 font-semibold text-white bg-black">
+                        <li><a>Home</a></li>
+                        <li><a>Services ></a></li>
+                        <li><a>Cases ></a></li>
+                        <li><a>Blog ></a></li>
+                        <li><a>Contract Us ></a></li>
+                    </ul>
+                </div>
+                <img src="./images/logo.png" alt="">
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 font-semibold text-white">
+                    <li><a>Home</a></li>
+                    <li><a>Services ></a></li>
+                    <li><a>Cases ></a></li>
+                    <li><a>Blog ></a></li>
+                    <li><a>Contract Us ></a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <a class="btn hidden md:flex bg-[#B68C5A] p-4 font-semibold text-white border-none">Free
+                    Consultation</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- banner section -->
+
+    <section class="max-w-screen-xl mx-auto px-2 md:px-16 lg:px-24 my-2 ">
+
+
+
+        <div class="hero  rounded-xl opacity-90 md:h-[500px]"
+            style="background-image: url(./images/banner.png); background-size: cover;">
+
+            <div class="hero-overlay rounded-xl bg-opacity-60"></div>
+
+            <div class="px-2 rounded-3xl">
+
+
+                <div class="flex flex-col justify-center items-center text-center text-white mb-3">
+                    <p class="text-2xl md:text-4xl font-extrabold pt-24">We Provide Effective <br> Legal Solutions</p>
+
+                    <p class="py-5 text-sm  md:px-16 lg:px-40 xl:px-72 ">There are many variations of passages of
+                        available, but
+                        the majority
+                        have suffered alteration in some form, by injected humour.</p>
+
+
+                    <div class="flex justify-between items-center gap-2">
+
+                        <input type="text" placeholder="Services" class="input input-bordered w-24 md:w-auto" />
+
+
+                        <button class="btn bg-[#B68C5A] p-4 font-semibold text-white border-none">search</button>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <!-- practice Area section -->
+
+    <section class="max-w-screen-xl mx-auto px-2 md:px-16 lg:px-24 my-10 py-2">
+
+
+        <div class="flex flex-col justify-center items-center text-center text-black mb-3">
+            <p class="text-2xl md:text-4xl font-extrabold pt-4">The Legal Practice Area</p>
+
+            <p class="text-sm px-3 pb-5 pt-7 md:px-16 lg:px-40 xl:px-72 font-serif ">There are many variations of
+                passages of Lorem Ipsum
+                available, but the majority have suffered alteration in some form, by injected humour.</p>
+
+
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-1 xl:gap-5 md:gap-5 px-2 md:px-0">
+
+            <!-- card 1 -->
+
+            <div class="card  bg-black text-white p-3 shadow-xl">
+                <figure>
+                    <img src="./images/business.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title text-2xl">Business Law</h2>
+
+                    <p class="text-sm text-gray-500 py-3">There are many variations of
+                        passages of Lorem Ipsum
+                        available, but the majority have
+                        suffered alteration in some
+                        form, by injected humour</p>
+
+                    <div class="card-actions">
+                        <button class="btn bg-[#B68C5A] p-4 font-semibold text-white border-none">Take it
+                            <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 2 -->
+
+            <div class="card  bg-black text-white p-3 shadow-xl">
+                <figure>
+                    <img src="./images/criminal.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title text-2xl">Criminal Law</h2>
+
+                    <p class="text-sm text-gray-500 py-3">There are many variations of
+                        passages of Lorem Ipsum
+                        available, but the majority have
+                        suffered alteration in some
+                        form, by injected humour</p>
+
+                    <div class="card-actions">
+                        <button class="btn bg-[#B68C5A] p-4 font-semibold text-white border-none">Take it
+                            <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- card 3 -->
+
+            <div class="card  bg-black text-white p-3 shadow-xl">
+                <figure>
+                    <img src="./images/child.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title text-2xl">Child Support</h2>
+
+                    <p class="text-sm text-gray-500 py-3">There are many variations of
+                        passages of Lorem Ipsum
+                        available, but the majority have
+                        suffered alteration in some
+                        form, by injected humour</p>
+
+                    <div class="card-actions">
+                        <button class="btn bg-[#B68C5A] p-4 font-semibold text-white border-none">Take it
+                            <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 4 -->
+
+            <div class="card  bg-black text-white p-3 shadow-xl">
+                <figure>
+                    <img src="./images/education.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title text-2xl">Education Law</h2>
+
+                    <p class="text-sm text-gray-500 py-3">There are many variations of
+                        passages of Lorem Ipsum
+                        available, but the majority have
+                        suffered alteration in some
+                        form, by injected humour</p>
+
+                    <div class="card-actions">
+                        <button class="btn bg-[#B68C5A] p-4 font-semibold text-white border-none">Take it
+                            <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 5 -->
+
+            <div class="card  bg-black text-white p-3 shadow-xl">
+                <figure>
+                    <img src="./images/divorce.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title text-2xl">Divorce Law</h2>
+
+                    <p class="text-sm text-gray-500 py-3">There are many variations of
+                        passages of Lorem Ipsum
+                        available, but the majority have
+                        suffered alteration in some
+                        form, by injected humour</p>
+
+                    <div class="card-actions">
+                        <button class="btn bg-[#B68C5A] p-4 font-semibold text-white border-none">Take it
+                            <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 6 -->
+
+            <div class="card  bg-black text-white p-3 shadow-xl">
+                <figure>
+                    <img src="./images/tax.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title text-2xl">Tax Law</h2>
+
+                    <p class="text-sm text-gray-500 py-3">There are many variations of
+                        passages of Lorem Ipsum
+                        available, but the majority have
+                        suffered alteration in some
+                        form, by injected humour</p>
+
+                    <div class="card-actions">
+                        <button class="btn bg-[#B68C5A] p-4 font-semibold text-white border-none">Take it
+                            <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+    <!-- carousel section -->
+
+    <section class="max-w-screen-xl mx-auto px-2 md:px-16 lg:px-24 my-10 py-2">
+
+        <div id="carouselExampleCaptions" class="relative" data-te-carousel-init data-te-carousel-slide>
+            <!--Carousel indicators-->
+            <div class="absolute bottom-0 left-0 right-0 z-[2] mx-[15%] mb-4 flex list-none justify-center p-0"
+                data-te-carousel-indicators>
+                <button type="button" data-te-target="#carouselExampleCaptions" data-te-slide-to="0"
+                    data-te-carousel-active
+                    class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-te-target="#carouselExampleCaptions" data-te-slide-to="1"
+                    class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-te-target="#carouselExampleCaptions" data-te-slide-to="2"
+                    class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+                    aria-label="Slide 3"></button>
+            </div>
+
+            <!--Carousel items-->
+            <div class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
+                <!--First item-->
+                <div class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+                    data-te-carousel-active data-te-carousel-item style="backface-visibility: hidden">
+                    <img src="./images/slider-1.jpg" class="block w-full" alt="..." />
+                    <div class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
+                        <h5 class="text-xl">First slide label</h5>
+                        <p>
+                            Some representative placeholder content for the first slide.
+                        </p>
+                    </div>
+                </div>
+                <!--Second item-->
+                <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+                    data-te-carousel-item style="backface-visibility: hidden">
+                    <img src="./images/slider-2.jpg" class="block w-full" alt="..." />
+                    <div class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
+                        <h5 class="text-xl">Second slide label</h5>
+                        <p>
+                            Some representative placeholder content for the second slide.
+                        </p>
+                    </div>
+                </div>
+                <!--Third item-->
+                <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+                    data-te-carousel-item style="backface-visibility: hidden">
+                    <img src="./images/slider-3.jpg" class="block w-full" alt="..." />
+                    <div class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
+                        <h5 class="text-xl">Third slide label</h5>
+                        <p>
+                            Some representative placeholder content for the third slide.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Carousel controls - prev item-->
+            <button
+                class="absolute bottom-0 left-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+                type="button" data-te-target="#carouselExampleCaptions" data-te-slide="prev">
+                <span class="inline-block h-8 w-8">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="h-6 w-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                    </svg>
+                </span>
+                <span
+                    class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Previous</span>
+            </button>
+            <!--Carousel controls - next item-->
+            <button
+                class="absolute bottom-0 right-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+                type="button" data-te-target="#carouselExampleCaptions" data-te-slide="next">
+                <span class="inline-block h-8 w-8">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="h-6 w-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </span>
+                <span
+                    class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Next</span>
+            </button>
+        </div>
+
+    </section>
+
+</body>
+
+</html>
