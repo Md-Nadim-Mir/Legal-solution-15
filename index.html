@@ -35,7 +35,7 @@
 <body>
 
     <!-- header section nav-->
-    <nav class="max-w-screen-xl mx-auto px-2 md:px-16 lg:px-24 my-3 py-2">
+    <nav class="max-w-screen-xl mx-auto px-2 md:px-16 lg:px-24 mb-5 mt-2 py-2">
         <div class="navbar bg-black rounded-xl ">
             <div class="navbar-start">
                 <div class="dropdown pr-20 md:pr-32 lg:pr-0 text-white ">
@@ -79,7 +79,7 @@
 
 
 
-        <div class="hero  rounded-xl opacity-90 md:h-[500px]"
+        <div class="hero  rounded-xl opacity-100 md:h-[500px]"
             style="background-image: url(./images/banner.png); background-size: cover;">
 
             <div class="hero-overlay rounded-xl bg-opacity-60"></div>
@@ -285,88 +285,390 @@
 
     <section class="max-w-screen-xl mx-auto px-2 md:px-16 lg:px-24 my-10 py-2">
 
-        <div id="carouselExampleCaptions" class="relative" data-te-carousel-init data-te-carousel-slide>
-            <!--Carousel indicators-->
-            <div class="absolute bottom-0 left-0 right-0 z-[2] mx-[15%] mb-4 flex list-none justify-center p-0"
-                data-te-carousel-indicators>
-                <button type="button" data-te-target="#carouselExampleCaptions" data-te-slide-to="0"
-                    data-te-carousel-active
-                    class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-te-target="#carouselExampleCaptions" data-te-slide-to="1"
-                    class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-te-target="#carouselExampleCaptions" data-te-slide-to="2"
-                    class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
-                    aria-label="Slide 3"></button>
-            </div>
 
-            <!--Carousel items-->
-            <div class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
-                <!--First item-->
-                <div class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
-                    data-te-carousel-active data-te-carousel-item style="backface-visibility: hidden">
-                    <img src="./images/slider-1.jpg" class="block w-full" alt="..." />
-                    <div class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
-                        <h5 class="text-xl">First slide label</h5>
-                        <p>
-                            Some representative placeholder content for the first slide.
-                        </p>
+        <div class="flex flex-col justify-center items-center text-center text-black mb-3">
+            <p class="text-2xl md:text-4xl font-extrabold pt-4">What Our Client Say</p>
+
+            <p class="text-sm px-3 pb-5 pt-7 md:px-16 lg:px-40 xl:px-72 font-serif ">There are many variations of
+                passages of Lorem Ipsum
+                available, but the majority have suffered alteration in some form, by injected humour.</p>
+
+
+        </div>
+
+
+
+
+
+        <div class="carousel w-full rounded-xl">
+
+            <!-- carousel 1 -->
+
+            <div id="slide1" class="carousel-item relative w-full">
+
+                <div class="hero h-[370px] md:h-[500px]" style="background-image: url(./images/slider-1.jpg);">
+                    <div class="hero-overlay bg-opacity-60"></div>
+                    <div class="hero-content text-center text-neutral-content">
+                        <div class="max-w-md flex flex-col justify-center items-center">
+
+                            <img class="w-[70px]" src="images/member1.png" alt="">
+                            <h1 class="mb-1 mt-1 text-2xl  font-bold">Awlad Hossain</h1>
+
+                            <h2 class="mb-5 text-sm font-bold">UIX Designer</h2>
+
+                            <p class="mb-5 text-xs md:text-sm">Contrary to popular belief, Lorem Ipsum is not simply
+                                random text. It has roots in a piece of classical Latin
+                                literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
+                                professor at Hampden-Sydney
+                                College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+                            <button
+                                class="btn text-white bg-[#B68C5A] hover:text-black hover:bg-[#f53d00] p-5 border-none">Message</button>
+                        </div>
                     </div>
                 </div>
-                <!--Second item-->
-                <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
-                    data-te-carousel-item style="backface-visibility: hidden">
-                    <img src="./images/slider-2.jpg" class="block w-full" alt="..." />
-                    <div class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
-                        <h5 class="text-xl">Second slide label</h5>
-                        <p>
-                            Some representative placeholder content for the second slide.
-                        </p>
-                    </div>
-                </div>
-                <!--Third item-->
-                <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
-                    data-te-carousel-item style="backface-visibility: hidden">
-                    <img src="./images/slider-3.jpg" class="block w-full" alt="..." />
-                    <div class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
-                        <h5 class="text-xl">Third slide label</h5>
-                        <p>
-                            Some representative placeholder content for the third slide.
-                        </p>
-                    </div>
+
+
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
                 </div>
             </div>
 
-            <!--Carousel controls - prev item-->
-            <button
-                class="absolute bottom-0 left-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
-                type="button" data-te-target="#carouselExampleCaptions" data-te-slide="prev">
-                <span class="inline-block h-8 w-8">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="h-6 w-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
-                    </svg>
-                </span>
-                <span
-                    class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Previous</span>
-            </button>
-            <!--Carousel controls - next item-->
-            <button
-                class="absolute bottom-0 right-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
-                type="button" data-te-target="#carouselExampleCaptions" data-te-slide="next">
-                <span class="inline-block h-8 w-8">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="h-6 w-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                    </svg>
-                </span>
-                <span
-                    class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Next</span>
-            </button>
+
+            <!-- carousel 2 -->
+
+            <div id="slide2" class="carousel-item relative w-full">
+
+                <div class="carousel w-full">
+                    <div id="slide1" class="carousel-item relative w-full">
+
+                        <div class="hero h-[370px] md:h-[500px] rounded-lg"
+                            style="background-image: url(./images/slider-2.jpg);">
+                            <div class="hero-overlay bg-opacity-60"></div>
+                            <div class="hero-content text-center text-neutral-content">
+
+                                <div class="max-w-md flex flex-col justify-center items-center">
+
+                                    <img class="w-[70px]" src="images/member2.png" alt="">
+                                    <h1 class="mb-1 mt-1 text-2xl  font-bold">Safia Chowdhury</h1>
+
+                                    <h2 class="mb-5 text-sm font-bold">Web Designer</h2>
+
+                                    <p class="mb-5 text-xs md:text-sm">Contrary to popular belief, Lorem Ipsum is not
+                                        simply random text. It has roots in a piece of classical Latin
+                                        literature from 45 BC, making it over 2000 years old. Richard McClintock, a
+                                        Latin professor at Hampden-Sydney
+                                        College in Virginia, looked up one of the more obscure Latin words, consectetur.
+                                    </p>
+                                    <button
+                                    class="btn text-white bg-[#B68C5A] hover:text-black hover:bg-[#f53d00] p-5 border-none">Message</button>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide1" class="btn btn-circle">❮</a>
+                            <a href="#slide3" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+
+
+                    <!-- carousel 3 -->
+
+                    <div id="slide3" class="carousel-item relative w-full">
+
+                        <div class="carousel w-full">
+                            <div id="slide1" class="carousel-item relative w-full">
+
+                                <div class="hero h-[370px] md:h-[500px] rounded-lg"
+                                    style="background-image: url(./images/slider-3.jpg);">
+                                    <div class="hero-overlay bg-opacity-60"></div>
+                                    <div class="hero-content text-center text-neutral-content">
+
+                                        <div class="max-w-md flex flex-col justify-center items-center">
+
+                                            <img class="w-[70px]" src="images/member3.png" alt="">
+                                            <h1 class="mb-1 mt-1 text-2xl  font-bold">Rokib Hossain</h1>
+
+                                            <h2 class="mb-5 text-sm font-bold">SEO Expert</h2>
+
+                                            <p class="mb-5 text-xs md:text-sm">Contrary to popular belief, Lorem Ipsum
+                                                is not simply random text. It has roots in a piece of classical Latin
+                                                literature from 45 BC, making it over 2000 years old. Richard
+                                                McClintock, a Latin professor at Hampden-Sydney
+                                                College in Virginia, looked up one of the more obscure Latin words,
+                                                consectetur.</p>
+                                                <button
+                                                class="btn text-white bg-[#B68C5A] hover:text-black hover:bg-[#f53d00] p-5 border-none">Message</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                                <div
+                                    class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                    <a href="#slide2" class="btn btn-circle">❮</a>
+                                    <a href="#slide4" class="btn btn-circle">❯</a>
+                                </div>
+                            </div>
+
+
+                            <!-- carousel 4 -->
+
+                            <div id="slide4" class="carousel-item relative w-full">
+
+                                <div class="carousel w-full">
+                                    <div id="slide1" class="carousel-item relative w-full">
+
+                                        <div class="hero h-[370px] md:h-[500px] rounded-lg"
+                                            style="background-image: url(./images/banner.png);">
+
+                                            <div class="hero-overlay bg-opacity-60"></div>
+                                            <div class="hero-content text-center text-neutral-content">
+
+                                                <div class="max-w-md flex flex-col justify-center items-center">
+
+                                                    <img class="w-[70px]" src="images/member4.png" alt="">
+                                                    <h1 class="mb-1 mt-1 text-2xl  font-bold">Chaity</h1>
+
+                                                    <h2 class="mb-5 text-sm font-bold">Web Develper</h2>
+
+                                                    <p class="mb-5 text-xs md:text-sm">Contrary to popular belief, Lorem
+                                                        Ipsum is not simply random text. It has roots in a piece of
+                                                        classical Latin
+                                                        literature from 45 BC, making it over 2000 years old. Richard
+                                                        McClintock, a Latin professor at Hampden-Sydney
+                                                        College in Virginia, looked up one of the more obscure Latin
+                                                        words, consectetur.</p>
+                                                        <button
+                                                        class="btn text-white bg-[#B68C5A] hover:text-black hover:bg-[#f53d00] p-5 border-none">Message</button>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+
+                                        <div
+                                            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                            <a href="#slide3" class="btn btn-circle">❮</a>
+                                            <a href="#slide1" class="btn btn-circle">❯</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+    </section>
+
+
+    <!-- FAQ sections -->
+
+    <section class="max-w-screen-xl mx-auto px-2 md:px-16 lg:px-24 my-10 py-2">
+
+
+        <div class="flex flex-col justify-center items-center text-center text-black mb-3">
+            <p class="text-2xl md:text-4xl font-extrabold pt-4">Frequently Asked Any Questions</p>
+
+            <p class="text-sm px-3 pb-5 pt-7 md:px-16 lg:px-40 xl:px-72 font-serif ">There are many variations of
+                passages of Lorem Ipsum available, but the majority have
+                suffered alteration in some form, by injected humour.</p>
+
+        </div>
+
+        <div class="flex flex-col-reverse lg:flex-row justify-between items-center gap-5">
+            <div class="flex flex-col gap-2">
+
+
+                <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" checked="checked" />
+                    <div class="collapse-title text-xl font-medium">
+                        1. Are application fee waivers available?
+                    </div>
+                    <div class="collapse-content">
+                        <p>There are many variations of passages of Lorem Ipsum
+                            available, but the majority have suffered alteration in some
+                            form, by injected humour,</p>
+                    </div>
+                </div>
+                <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title text-xl font-medium">
+                        2. Are application more suitable for users?
+                    </div>
+                    <div class="collapse-content">
+                        <p>There are many variations of passages of Lorem Ipsum
+                            available, but the majority have suffered alteration in some
+                            form, by injected humour,</p>
+                    </div>
+                </div>
+
+                <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title text-xl font-medium">
+                        3. Are application , how much responsive?
+                    </div>
+                    <div class="collapse-content">
+                        <p>There are many variations of passages of Lorem Ipsum
+                            available, but the majority have suffered alteration in some
+                            form, by injected humour,</p>
+                    </div>
+                </div>
+
+                <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title text-xl font-medium">
+                        4. Are application , which libary components are use?
+                    </div>
+                    <div class="collapse-content">
+                        <p>There are many variations of passages of Lorem Ipsum
+                            available, but the majority have suffered alteration in some
+                            form, by injected humour,</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div>
+                <img class="lg:w-[500px] w-[300px]" src="./images/faq.png" alt="">
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <!-- contract section -->
+
+    <section class="max-w-screen-xl mx-auto px-2 md:px-16 lg:px-24 my-10 py-2">
+
+
+        <div class="flex flex-col justify-center items-center text-center text-black mb-3">
+            <p class="text-2xl md:text-4xl font-extrabold pt-4">Contact With Us</p>
+
+            <p class="text-sm px-3 pb-5 pt-7 md:px-16 lg:px-40 xl:px-72 font-serif ">There are many variations of
+                passages of Lorem Ipsum available, but the majority have
+                suffered alteration in some form, by injected humour.</p>
+
+        </div>
+
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-7">
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-2 ">
+
+                <!-- contract 1 -->
+
+                <div class="flex flex-col justify-center items-center shadow-2xl px-2 py-10 rounded-xl mt-1">
+                    <img src="./images/location.png" alt="">
+                    <p class="text-xl text-black font-bold py-3">Address</p>
+                    <p class="text-sm font-semibold text-center">A108 Adam Street, New York, NY 535022</p>
+                </div>
+
+
+
+                <!--contract 2  -->
+
+
+                <div class="flex flex-col justify-center items-center shadow-2xl py-10 rounded-xl mt-1">
+                    <img src="./images/call.png" alt="">
+                    <p class="text-xl text-black font-bold py-3">Call Us</p>
+                    <p class="text-sm font-semibold">+8801750000000</p>
+                    
+                </div>
+
+
+                <!--contract 3  -->
+
+                <div class="flex flex-col justify-center items-center shadow-2xl py-10 rounded-xl mt-1">
+                    <img src="./images/email.png" alt="">
+                    <p class="text-xl text-black font-bold py-3">Email Us</p>
+                    <p class="text-sm font-semibold" style="cursor: pointer;">info@gmail.com</p>
+                    
+                </div>
+
+
+                 <!--contract 4  -->
+
+                 
+                 <div class="flex flex-col justify-center items-center shadow-2xl py-10 rounded-xl mt-1">
+                    <img src="./images/time.png" alt="">
+                    <p class="text-xl text-black font-bold py-3">Working Hours</p>
+                    <p class="text-sm font-semibold">info@gmail.com</p>
+                    
+                </div>
+
+            </div>
+
+
+            <!-- contract 5 -->
+
+            <div class="flex flex-col gap-2">
+
+                   <input type="text" placeholder="Your Name" class="rounded-md px-5 py-4 w-full bg-[#F3F3F3]">
+
+                  <input type="email" placeholder="Your Email" class="rounded-md px-5 py-4 w-full bg-[#F3F3F3]">
+
+                  <input type="text" placeholder="Subject" class="rounded-md px-5 py-4 w-full bg-[#F3F3F3]">
+
+                  <textarea class="rounded-md px-5 py-4 w-full bg-[#F3F3F3]" name="text" placeholder="Message" id="" cols="10" rows="10" ></textarea>
+
+
+                  <button class="rounded-md px-5 py-4 w-full bg-[#B68C5A] p-4 font-semibold text-white border-none">Send Message</button>
+
+            </div>
+
         </div>
 
     </section>
+
+
+    <!-- footer section -->
+
+    <footer class="footer p-10 bg-black text-base-content md:flex justify-between items-center  ">
+        
+        <div>
+         <img src="./images/logo.png" alt="">
+          <p class="text-white pt-3">Justice Society Ltd.<br/>Providing reliable tech since 1992</p>
+        </div> 
+
+        <div class="text-white">
+          <span class="footer-title">Usefull Link</span> 
+          <a class="link link-hover">Home</a> 
+          <a class="link link-hover">Services</a> 
+          <a class="link link-hover">Cases</a> 
+          <a class="link link-hover">Blog</a> 
+          <a class="link link-hover">Contract Us</a>
+        </div> 
+
+        <div class="text-white">
+          <span class="footer-title">Usefull Link</span> 
+          <a class="link link-hover">555 4th 5t NW,Washington <br> DC 20530, United States</a> 
+          <a class="link link-hover">+8801750000000</a> 
+          <a class="link link-hover">info@gmail.com</a> 
+          
+        </div> 
+      
+        <div class="text-white">
+            <span class="footer-title">Subscribe</span> 
+            <div class="form-control w-80">
+              <label class="label">
+                <span class="label-text text-white">Subscribe for our latest & <br>
+                    Articles. We Won t Give You <br>
+                    Spam Mails</span>
+              </label> 
+              <div class="relative w-3/4">
+                <input type="text" placeholder="Email Address" class="input input-bordered w-full pr-16" /> 
+                <!-- <button class="btn  absolute top-0 right-0 rounded-md px-5 py-4  bg-[#B68C5A] p-4 font-semibold text-white border-none">Subscribe</button> -->
+                <button class="btn bg-[#B68C5A] absolute top-0 right-0 rounded-l-none">Subscribe</button>
+              </div>
+            </div>
+          </div>
+       
+
+      </footer>
+
 
 </body>
 
